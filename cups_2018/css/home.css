@@ -1,0 +1,162 @@
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body { 
+  margin: 0;
+  /*background-image: url("../img/cups_background.png");*/
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  max-width: auto;
+  margin: auto;
+}
+
+img {
+ float: left;
+ margin-top: -200px;
+ max-width: 100%;
+ height: 150px;
+}
+
+.topnav {
+  max-width: auto;
+  margin: auto;
+}
+
+h1 {
+  color: #019127;
+  font-family: fantasy;
+  font-size: 35px; 
+  position: absolute;
+  font-weight: normal;
+  top: 2%;
+  margin-left: 11%;
+}
+
+ul {
+  float: right;
+  list-style: none;
+  margin-top: -170px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #019127;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background-color: #019127;
+  color: #fff;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #f1f1f1;
+  padding: 40px 5px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+
+.search-container {
+  float: left;
+  list-style: none;
+  margin-top: -100px;
+}
+
+.search-container input {
+  margin-left: 175px;
+}
+
+.search-container a {
+  padding: 4px 20px;
+  border: none;
+  background-color: #4CAF50;
+  text-decoration: none;
+  color: white;
+}
+
+.search-container a:hover {
+  background-color: #3cbd11;
+  color: #fff;
+  transition: 0.2s;
+}
+
+hr {
+  margin-top: -30px;
+}
+
+.vision {
+  background-color: #4CAF50;
+  text-align: center;
+  margin-top: 200px;
+  opacity: 87%;
+  padding-bottom: 5px;
+}
+
+.vision h2 {
+  font-size: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.vision p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.mission {
+  background-color: #4CAF50;
+  text-align: center;
+  margin-top: 25px;
+  opacity: 87%;
+  padding-bottom: 5px;
+}
+
+.mission h2 {
+  margin-left: 50%;
+  font-size: 50px;
+  transform: translate(-50%);
+}
+
+.mission p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.core-values {
+  background-color: #4CAF50;
+  text-align: center;
+  margin-top: 25px;
+  opacity: 87%;
+  padding-bottom: 5px;
+}
+
+.core-values h2 {
+  font-size: 50px;
+  margin-left: 50%;
+  transform: translate(-50%);
+}
+
+.core-values p {
+  font-size: 16px;
+  text-align: center;
+}
+
+.null {
+  margin-top: 100px;
+}

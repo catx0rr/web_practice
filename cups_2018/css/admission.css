@@ -1,0 +1,111 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("../img/cups_background.png");
+  height: 100%;
+  
+}
+
+.main {
+  max-width: auto;
+  margin: auto;
+}
+
+/* Logo/ Header */
+
+h1 {
+  color: #019127;
+  font-family: fantasy;
+  font-size: 35px; 
+  position: absolute;
+  font-weight: normal;
+  top: 2%;
+  margin-left: 11%;
+}
+
+h2 {
+  color: #019127;
+  font-family: fantasy;
+  font-size: 25px;
+  position: absolute;
+  font-weight: normal;
+  margin-left: 175px;
+  top: 8%;
+}
+
+img {
+  margin-left: 0%;
+  margin-top: -10px;
+  max-width: 100%;
+  height: 150px;
+}
+
+/* Navigation buttons */
+
+ul {
+  float: right;
+  list-style: none;
+  margin-top: 20px;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #019127;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.6s ease;
+}
+
+ul li a:hover {
+  background-color: #019127;
+  color: #fff;
+}
+#customers {
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: -10%;
+  margin-left: 25% ;
+  opacity: 90%;
+}
+
+#customers td, #customers th {
+  border: 6px solid #eaeaea;
+  padding: 8px;
+}
+
+
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: black;
+}
+.button {
+  background-color: #23252E;
+  border: none;
+  color: white;
+  padding: 12px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  float: Right;
+}
+
+.button:hover {
+  background-color: #3cbd11;/*#3cbd11;*/
+  color: #fff;
+  transition: 0.3s;
+
+}
